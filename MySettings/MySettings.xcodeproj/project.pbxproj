@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDC92581714112000FFBAF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC92571714112000FFBAF0 /* UIKit.framework */; };
+		FDDC925A1714112000FFBAF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC92591714112000FFBAF0 /* Foundation.framework */; };
+		FDDC925C1714112000FFBAF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC925B1714112000FFBAF0 /* CoreGraphics.framework */; };
+		FDDC92621714112000FFBAF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDDC92601714112000FFBAF0 /* InfoPlist.strings */; };
+		FDDC92641714112000FFBAF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC92631714112000FFBAF0 /* main.m */; };
+		FDDC92681714112000FFBAF0 /* MySettingsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC92671714112000FFBAF0 /* MySettingsAppDelegate.m */; };
+		FDDC926A1714112000FFBAF0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDC92691714112000FFBAF0 /* Default.png */; };
+		FDDC926C1714112000FFBAF0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDC926B1714112000FFBAF0 /* Default@2x.png */; };
+		FDDC926E1714112000FFBAF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDC926D1714112000FFBAF0 /* Default-568h@2x.png */; };
+		FDDC92711714112000FFBAF0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDC926F1714112000FFBAF0 /* MainStoryboard.storyboard */; };
+		FDDC92741714112000FFBAF0 /* MySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC92731714112000FFBAF0 /* MySettingsViewController.m */; };
+		FDDC927B1714115600FFBAF0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDDC927A1714115600FFBAF0 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDDC92541714112000FFBAF0 /* MySettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDC92571714112000FFBAF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDDC92591714112000FFBAF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDDC925B1714112000FFBAF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDDC925F1714112000FFBAF0 /* MySettings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySettings-Info.plist"; sourceTree = "<group>"; };
+		FDDC92611714112000FFBAF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDDC92631714112000FFBAF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDDC92651714112000FFBAF0 /* MySettings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySettings-Prefix.pch"; sourceTree = "<group>"; };
+		FDDC92661714112000FFBAF0 /* MySettingsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingsAppDelegate.h; sourceTree = "<group>"; };
+		FDDC92671714112000FFBAF0 /* MySettingsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingsAppDelegate.m; sourceTree = "<group>"; };
+		FDDC92691714112000FFBAF0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FDDC926B1714112000FFBAF0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FDDC926D1714112000FFBAF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FDDC92701714112000FFBAF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FDDC92721714112000FFBAF0 /* MySettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingsViewController.h; sourceTree = "<group>"; };
+		FDDC92731714112000FFBAF0 /* MySettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingsViewController.m; sourceTree = "<group>"; };
+		FDDC927A1714115600FFBAF0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDC92511714112000FFBAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC92581714112000FFBAF0 /* UIKit.framework in Frameworks */,
+				FDDC925A1714112000FFBAF0 /* Foundation.framework in Frameworks */,
+				FDDC925C1714112000FFBAF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDC924B1714112000FFBAF0 = {
+			isa = PBXGroup;
+			children = (
+				FDDC927A1714115600FFBAF0 /* Settings.bundle */,
+				FDDC925D1714112000FFBAF0 /* MySettings */,
+				FDDC92561714112000FFBAF0 /* Frameworks */,
+				FDDC92551714112000FFBAF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDC92551714112000FFBAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC92541714112000FFBAF0 /* MySettings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDC92561714112000FFBAF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC92571714112000FFBAF0 /* UIKit.framework */,
+				FDDC92591714112000FFBAF0 /* Foundation.framework */,
+				FDDC925B1714112000FFBAF0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDC925D1714112000FFBAF0 /* MySettings */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC92661714112000FFBAF0 /* MySettingsAppDelegate.h */,
+				FDDC92671714112000FFBAF0 /* MySettingsAppDelegate.m */,
+				FDDC926F1714112000FFBAF0 /* MainStoryboard.storyboard */,
+				FDDC92721714112000FFBAF0 /* MySettingsViewController.h */,
+				FDDC92731714112000FFBAF0 /* MySettingsViewController.m */,
+				FDDC925E1714112000FFBAF0 /* Supporting Files */,
+			);
+			path = MySettings;
+			sourceTree = "<group>";
+		};
+		FDDC925E1714112000FFBAF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC925F1714112000FFBAF0 /* MySettings-Info.plist */,
+				FDDC92601714112000FFBAF0 /* InfoPlist.strings */,
+				FDDC92631714112000FFBAF0 /* main.m */,
+				FDDC92651714112000FFBAF0 /* MySettings-Prefix.pch */,
+				FDDC92691714112000FFBAF0 /* Default.png */,
+				FDDC926B1714112000FFBAF0 /* Default@2x.png */,
+				FDDC926D1714112000FFBAF0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDC92531714112000FFBAF0 /* MySettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDC92771714112000FFBAF0 /* Build configuration list for PBXNativeTarget "MySettings" */;
+			buildPhases = (
+				FDDC92501714112000FFBAF0 /* Sources */,
+				FDDC92511714112000FFBAF0 /* Frameworks */,
+				FDDC92521714112000FFBAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySettings;
+			productName = MySettings;
+			productReference = FDDC92541714112000FFBAF0 /* MySettings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDC924C1714112000FFBAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MySettings;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "RVC Student";
+			};
+			buildConfigurationList = FDDC924F1714112000FFBAF0 /* Build configuration list for PBXProject "MySettings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDDC924B1714112000FFBAF0;
+			productRefGroup = FDDC92551714112000FFBAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDC92531714112000FFBAF0 /* MySettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDC92521714112000FFBAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC92621714112000FFBAF0 /* InfoPlist.strings in Resources */,
+				FDDC926A1714112000FFBAF0 /* Default.png in Resources */,
+				FDDC926C1714112000FFBAF0 /* Default@2x.png in Resources */,
+				FDDC926E1714112000FFBAF0 /* Default-568h@2x.png in Resources */,
+				FDDC92711714112000FFBAF0 /* MainStoryboard.storyboard in Resources */,
+				FDDC927B1714115600FFBAF0 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDC92501714112000FFBAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC92641714112000FFBAF0 /* main.m in Sources */,
+				FDDC92681714112000FFBAF0 /* MySettingsAppDelegate.m in Sources */,
+				FDDC92741714112000FFBAF0 /* MySettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDDC92601714112000FFBAF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDC92611714112000FFBAF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDDC926F1714112000FFBAF0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDC92701714112000FFBAF0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDDC92751714112000FFBAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDDC92761714112000FFBAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDC92781714112000FFBAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySettings/MySettings-Prefix.pch";
+				INFOPLIST_FILE = "MySettings/MySettings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDDC92791714112000FFBAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySettings/MySettings-Prefix.pch";
+				INFOPLIST_FILE = "MySettings/MySettings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDC924F1714112000FFBAF0 /* Build configuration list for PBXProject "MySettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDC92751714112000FFBAF0 /* Debug */,
+				FDDC92761714112000FFBAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDC92771714112000FFBAF0 /* Build configuration list for PBXNativeTarget "MySettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDC92781714112000FFBAF0 /* Debug */,
+				FDDC92791714112000FFBAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDC924C1714112000FFBAF0 /* Project object */;
+}
